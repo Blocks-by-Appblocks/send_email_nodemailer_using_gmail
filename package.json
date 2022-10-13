@@ -4,13 +4,15 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-      "start": "node index.js --port=3000"
+        "start": "node index.js --port=3000"
     },
     "type": "module",
     "keywords": [],
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "express": "^4.17.3"
+        "dotenv": "^16.0.3",
+        "express": "^4.17.3",
+        "nodemailer": "^6.8.0"
     }
-  }
+}
